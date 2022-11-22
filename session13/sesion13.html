@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Certus - Modulo 2 - Javascript - Ejercicio 13">
+    <title>Sesion 13 Javascrip</title>
+    <link rel="stylesheet" href="css/sesion13.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicios 13</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Ejercicio 1: Obten la suma y el producto de dos números</h2>
+            <section class="input">
+                <label>Primer número:</label>
+                <input value="0" required="required"  type="number" class="sum_mul" id="n1">
+            </section>
+            <section class="input">
+                <label>Segundo número:</label>
+                <input value="0" required="required" type="number" class="sum_mul" required="required" id="n2">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_sum_mul"></p>
+            <button id="btn_sum_mul">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 2: Ingresa un número entero y obtén el 20%</h2>
+            <section class="input">
+                <label>Ingresa un número:</label>
+                <input value="0" required="required" type="number" class="percent" id="n3">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_percent"></p>
+            <button id="btn_percent">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 3:Ingresa un valor en metros y obtén su valor en cm y mm</h2>
+            <section class="input">
+                <label>Ingresa un número:</label>
+                <input value="0" required="required" type="number" class="meters" id="n4">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_cm_mm"></p>
+            <button id="btn_cm_mm">Calcular 🔎💡📚</button>
+        </article>
+        <article>
+            <h2>Ejercicio 4: Obten el área de un triángulo</h2>
+            <section class="input">
+                <label>Base:</label>
+                <input value="0" required="required" type="number" class="base" id="base">
+            </section>
+            <section class="input">
+                <label>Altura:</label>
+                <input value="0" required="required" type="number" class="altura" id="altura">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_area"></p>
+            <button id="btn_area">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 5: Ingresa un valor en dólares y obtener su valor en soles</h2>
+            <section class="input">
+                <label>Cantidad en dólares:</label>
+                <input value="0" required="required" type="number" class="dollars" id="dollars">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_soles"></p>
+            <button id="btn_soles">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 6: Ingresa un valor en pulgadas y obtén su valor en mm</h2>
+            <section class="input">
+                <label>Valor en pulgadas:</label>
+                <input value="0" required="required" type="number" class="pulgadas" id="pulgadas">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_mm"></p>
+            <button id="btn_mm">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 7: Ingresa un número de 3 cifras y obtén la suma de sus cifras elevado al cuadrado</h2>
+            <section class="input">
+                <label>Ingresa un número:</label>
+                <input value="0" required="required" type="number" class="cifras" id="cifras" maxlength="3"
+                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_cifras"></p>
+            <button id="btn_cifras">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 8: Ingresa un monto de dinero y conoce cuánto le corresponde a cada socio</h2>
+            <section class="input">
+                <label>Ingresa un monto:</label>
+                <input value="0" required="required" type="number" class="dinero" id="dinero">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_d_percent"></p>
+            <button id="btn_d_percent">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 9: Ingresa el precio base de un producto y obtén su IGV y precio final</h2>
+            <section class="input">
+                <label>Ingresa el precio base:</label>
+                <input value="0" required="required" type="number" class="precio" id="p_base">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_p_final"></p>
+            <button id="btn_p_final">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 10: Ingrese la cantidad de entradas vendidas por cada tipo</h2>
+            <section class="input">
+                <label>Entradas generales vendidas:</label>
+                <input value="0" required="required" type="number" class="e_g" id="e_g">
+            </section>
+            <section class="input">
+                <label>Entradas para mayores de 65 vendidas:</label>
+                <input value="0" required="required" type="number" class="e_m_65" id="e_m_65">
+            </section>
+            <section class="input">
+                <label>Entradas para menores vendidas:</label>
+                <input value="0" required="required" type="number" class="e_m" id="e_m">
+            </section>
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_entradas"></p>
+            <button id="btn_entradas">Calcular 🔎💡📚</button>
+        </article>
+    </main>
+    <script src="js/sesion13.js"></script>
+</body>
+</html>
