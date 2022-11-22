@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Certus - Modulo 2 - Javascript - Ejercicio 13">
+    <title>Sesion 13 Javascrip - Asíncrona</title>
+    <link rel="stylesheet" href="css/sesion13-asincrona.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicios 13 - Asíncrono </h1>
+    </header>
+    <main>
+        <article>
+            <h2>Ejercicio 1: Calcula el promedio de 3 notas</h2>
+            <section class="conjunto">
+                <label>Primera nota:</label>
+                <input value="0" required="required" type="number" class="p_nota" id="p_nota">
+            </section>
+            <section class="conjunto">
+                <label>Segunda nota:</label>
+                <input value="0" required="required" type="number" class="s_nota" id="s_nota">
+            </section>
+            <section class="conjunto">
+                <label>Tercera nota:</label>
+                <input value="0" required="required" type="number" class="t_nota" id="t_nota">
+            </section>
+
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_promedio"></p>
+            <button id="btn_promedio">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 2: Aumentos del 10%, 12% y 15% a 3 empleados respectivamente</h2>
+            <section class="conjunto">
+                <label>Sueldo de empleado A:</label>
+                <input value="0" required="required" type="number" class="p_sueldo" id="p_sueldo">
+            </section>
+            <section class="conjunto">
+                <label>Sueldo de empleado B:</label>
+                <input value="0" required="required" type="number" class="s_sueldo" id="s_sueldo">
+            </section>
+            <section class="conjunto">
+                <label>Sueldo de empleado C:</label>
+                <input value="0" required="required" type="number" class="t_sueldo" id="t_sueldo">
+            </section>
+
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_aumento"></p>
+            <button id="btn_aumento">Calcular 🔎💡📚</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 3: Calificación final en base a 3 exámenes con un peso del 30%, 30% y 40%</h2>
+            <section class="conjunto">
+                <label>Primera nota:</label>
+                <input value="0" required="required" type="number" class="p_c_nota" id="p_c_nota">
+            </section>
+            <section class="conjunto">
+                <label>Segunda nota:</label>
+                <input value="0" required="required" type="number" class="s_c_nota" id="s_c_nota">
+            </section>
+            <section class="conjunto">
+                <label>Tercera nota:</label>
+                <input value="0" required="required" type="number" class="t_c_nota" id="t_c_nota">
+            </section>
+
+            <p><em>Respuesta:</em></p>
+            <p class="resultado" id="p_c_final"></p>
+            <button id="btn_c_final">Calcular 🔎💡📚</button>
+        </article>
+    </main>
+  <script src="js/sesion13-asincrona.js"></script>
+</body>
+</html>
