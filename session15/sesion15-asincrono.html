@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Certus - Modulo 2 - Javascript - Ejercicio 15">
+    <title>Sesion 15 Javascrip</title>
+    <link rel="stylesheet" href="css/sesion15-asincrono.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 15 - Asíncrono</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Ejercicio 1: Ingrese los datos y conozca la bonificación y el sueldo final del trabajador</h2>
+            <section class="conjunto">
+                <label>Nombre del trabajador:</label>
+                <input  placeholder="Escribe aquí tu nombre" required="required" type="text" class="nombre" id="nombre">
+            </section>
+            <section class="conjunto">
+                <label>Sueldo básico:</label>
+                <input value="0" required="required" type="number" class="sueldo" id="sueldo">
+            </section>
+            <section class="conjunto">
+                <label>Número de hijos:</label>
+                <input value="0" required="required" type="number" class="hijos" id="hijos">
+            </section>
+            <p class="resultado" id="p_sueldo"></p>
+            <button id="btn_sueldo">Respuesta</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 2: Ingrese un número</h2>
+            <section class="conjunto">
+                <label>Ingrese un número:</label>
+                <input value="0" required="required" type="number" class="n1" id="n1">
+            </section>
+            <p class="resultado" id="p_percent"></p>
+            <button id="btn_percent">Respuesta</button>
+        </article>
+
+        <article>
+            <h2>Ejercicio 3: Ingrese un número y consiga su factorial</h2>
+            <section class="conjunto">
+                <label>Ingrese un número:</label>
+                <input value="0" required="required" type="number" class="n2" id="n2">
+            </section>
+            <p class="resultado" id="p_factorial"></p>
+            <button id="btn_factorial">Respuesta</button>
+        </article>
+    </main>
+</body>
+<script src="js/sesion15-asincrono.js"></script>
+</html>
