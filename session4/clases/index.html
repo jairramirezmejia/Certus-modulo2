@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta name="description" content="Curso de Desarrollo Web con HTML, CSS y JS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 02 - Curso de Desarrollo Web</title>
+</head>
+<body>
+    <header>
+        <h1>Listas ordenadas, sin orden y de definición</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="qsomos.html">Quienes Somos</a>
+            </li>
+            <li>
+                <a href="servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="contactanos.html" target="_blank">Contactanos</a>
+            </li>
+            <li>Cerrar Sesion</li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <!-- Listas ordenadas -> listas numnerada type = 1, a, i, I -->
+                <h2>Listas ordenadas</h2>
+                <ol>
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol type="a">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol type="i">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol type="I">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol type="A">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol start="10">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol reversed="reversed">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol type="a" reversed="reversed">
+                    <li>Juan</li>
+                    <li>Maria</li>
+                    <li>Ana</li>
+                    <li>Carlos</li>
+                </ol>
+                <ol type="a" start="5" reversed="reversed">
+                    <li>
+                        Juan
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae a perferendis commodi odit voluptatum perspiciatis mollitia obcaecati sit magni, qui saepe molestiae harum omnis asperiores aut error, veritatis quam modi.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, qui ex tenetur amet officia consectetur obcaecati numquam ab animi? Numquam fugit non impedit officia voluptate consectetur repellendus quis doloremque doloribus?</p>
+                    </li>
+                    <li>
+                        Maria
+                        <ul>
+                            <li>Lunes</li>
+                            <li>Martes</li>
+                            <li>Liercoles</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Ana
+                        <ol>
+                            <li>Diseñar la BD</li>
+                            <li>Modelo logico</li>
+                            <li>Pantalla login</li>
+                        </ol>
+                    </li>
+                    <li>Carlos</li>
+                </ol>
+            </article>
+            <article>
+                <!-- Listas sin orden -> Listado con viñetas type= disc, circle, square -->
+                <h2>Listas sin orden</h2>
+                <ul>
+                    <li>Perú</li>
+                    <li>Ecuador</li>
+                    <li>Chile</li>
+                    <li>Bolivia</li>
+                    <li>Brasil</li>
+                </ul>
+                <ul type="disc">
+                    <li>Perú</li>
+                    <li>Ecuador</li>
+                    <li>Chile</li>
+                    <li>Bolivia</li>
+                    <li>Brasil</li>
+                </ul>
+                <ul type="circle">
+                    <li>Perú</li>
+                    <li>Ecuador</li>
+                    <li>Chile</li>
+                    <li>Bolivia</li>
+                    <li>Brasil</li>
+                </ul>
+                <ul type="square">
+                    <li>Perú</li>
+                    <li>Ecuador</li>
+                    <li>Chile</li>
+                    <li>Bolivia</li>
+                    <li>Brasil</li>
+                </ul>
+                <!-- Concepto de menus y submenus -->
+                <ul>
+                    <li>
+                        America
+                        <ul>
+                            <li>
+                                Perú
+                                <ul>
+                                    <li>Lima</li>
+                                    <li>Ica</li>
+                                    <li>Piura</li>
+                                    <li>Loreto</li>
+                                </ul>
+                            </li>
+                            <li>Ecuador</li>
+                            <li>Chile</li>
+                            <li>Bolivia</li>
+                            <li>Brasil</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Europa
+                        <ul>
+                            <li>España</li>
+                            <li>Italia</li>
+                            <li>Rusia</li>
+                            <li>Francia</li>
+                        </ul>
+                    </li>
+                    <li>Asia</li>
+                    <li>Africa</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <article>
+                <!-- Lista de definiciones -->
+                <h2>Términos DESAROLLO WEB</h2>
+                <dl>
+                    <dt>
+                        HTML
+                        <dd>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid praesentium? Molestiae commodi praesentium asperiores numquam facere dolorum esse qui eos corrupti nulla exercitationem, dolorem iusto voluptatum quibusdam similique ut.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, rem ducimus necessitatibus obcaecati, quidem quisquam ea commodi laboriosam magni quaerat iure voluptas deserunt odit alias recusandae aut aperiam, voluptate nam.</p>
+                        </dd>
+                    </dt>
+                    <dt>JS</dt>
+                    <dt>Cloud Computing</dt>
+                    <dt>Sereless</dt>
+                </dl>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

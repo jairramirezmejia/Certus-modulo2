@@ -5,8 +5,8 @@ btn_sum_mul.addEventListener('click', sumaYmul);
 function sumaYmul(){
     const n1 = parseFloat(document.getElementById('n1').value);
     const n2 = parseFloat(document.getElementById('n2').value);
-    let suma = n1+n2 || 0;
-    let producto = n1*n2 ||0 ;
+    let suma = n1+n2 ;
+    let producto = n1*n2;
     p_sum_mul.innerText =`Suma:${suma} y  Producto: ${producto}`;
 }
 
